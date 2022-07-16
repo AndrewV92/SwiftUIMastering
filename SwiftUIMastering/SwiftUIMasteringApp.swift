@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIMasteringApp: App {
     var body: some Scene {
         WindowGroup {
-            ViewModifiers()
+            AnyTransitionView()
         }
     }
 }

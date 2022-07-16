@@ -12,6 +12,7 @@
 		FBB6DE2D2881F2E800C53517 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB6DE2C2881F2E800C53517 /* Preview Assets.xcassets */; };
 		FBB6DE342881F49600C53517 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6DE332881F49600C53517 /* ViewModifiers.swift */; };
 		FBB6DE3628822CA200C53517 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6DE3528822CA200C53517 /* ButtonStyle.swift */; };
+		FBD21A68288360E0002F2588 /* AnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD21A67288360E0002F2588 /* AnyTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		FBB6DE2C2881F2E800C53517 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FBB6DE332881F49600C53517 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		FBB6DE3528822CA200C53517 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		FBD21A67288360E0002F2588 /* AnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				FBB6DE252881F2E500C53517 /* SwiftUIMasteringApp.swift */,
 				FBB6DE332881F49600C53517 /* ViewModifiers.swift */,
 				FBB6DE3528822CA200C53517 /* ButtonStyle.swift */,
+				FBD21A67288360E0002F2588 /* AnyTransition.swift */,
 				FBB6DE292881F2E800C53517 /* Assets.xcassets */,
 				FBB6DE2B2881F2E800C53517 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB6DE3628822CA200C53517 /* ButtonStyle.swift in Sources */,
+				FBD21A68288360E0002F2588 /* AnyTransition.swift in Sources */,
 				FBB6DE342881F49600C53517 /* ViewModifiers.swift in Sources */,
 				FBB6DE262881F2E500C53517 /* SwiftUIMasteringApp.swift in Sources */,
 			);
