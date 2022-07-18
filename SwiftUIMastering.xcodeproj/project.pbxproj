@@ -15,6 +15,7 @@
 		FBB6DE342881F49600C53517 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6DE332881F49600C53517 /* ViewModifiers.swift */; };
 		FBB6DE3628822CA200C53517 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6DE3528822CA200C53517 /* ButtonStyle.swift */; };
 		FBCA4AC32885AD7B0070CA7C /* CustomCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4AC22885AD7B0070CA7C /* CustomCurves.swift */; };
+		FBCA4AC52885C30B0070CA7C /* AnimateableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4AC42885C30B0070CA7C /* AnimateableData.swift */; };
 		FBD21A68288360E0002F2588 /* AnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD21A67288360E0002F2588 /* AnyTransition.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		FBB6DE332881F49600C53517 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		FBB6DE3528822CA200C53517 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		FBCA4AC22885AD7B0070CA7C /* CustomCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurves.swift; sourceTree = "<group>"; };
+		FBCA4AC42885C30B0070CA7C /* AnimateableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateableData.swift; sourceTree = "<group>"; };
 		FBD21A67288360E0002F2588 /* AnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,9 +69,10 @@
 				FBD21A67288360E0002F2588 /* AnyTransition.swift */,
 				FB1DCEF42884C09500722E2F /* MatchGeometry.swift */,
 				FB1DCEF628852FB400722E2F /* CustomShapes.swift */,
+				FBCA4AC22885AD7B0070CA7C /* CustomCurves.swift */,
+				FBCA4AC42885C30B0070CA7C /* AnimateableData.swift */,
 				FBB6DE292881F2E800C53517 /* Assets.xcassets */,
 				FBB6DE2B2881F2E800C53517 /* Preview Content */,
-				FBCA4AC22885AD7B0070CA7C /* CustomCurves.swift */,
 			);
 			path = SwiftUIMastering;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				FBB6DE3628822CA200C53517 /* ButtonStyle.swift in Sources */,
 				FBD21A68288360E0002F2588 /* AnyTransition.swift in Sources */,
 				FBB6DE342881F49600C53517 /* ViewModifiers.swift in Sources */,
+				FBCA4AC52885C30B0070CA7C /* AnimateableData.swift in Sources */,
 				FBB6DE262881F2E500C53517 /* SwiftUIMasteringApp.swift in Sources */,
 				FBCA4AC32885AD7B0070CA7C /* CustomCurves.swift in Sources */,
 			);
