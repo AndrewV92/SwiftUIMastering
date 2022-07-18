@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB1DCEF52884C09500722E2F /* MatchGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DCEF42884C09500722E2F /* MatchGeometry.swift */; };
+		FB1DCEF728852FB400722E2F /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DCEF628852FB400722E2F /* CustomShapes.swift */; };
 		FBB6DE262881F2E500C53517 /* SwiftUIMasteringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6DE252881F2E500C53517 /* SwiftUIMasteringApp.swift */; };
 		FBB6DE2A2881F2E800C53517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB6DE292881F2E800C53517 /* Assets.xcassets */; };
 		FBB6DE2D2881F2E800C53517 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB6DE2C2881F2E800C53517 /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		FB1DCEF42884C09500722E2F /* MatchGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGeometry.swift; sourceTree = "<group>"; };
+		FB1DCEF628852FB400722E2F /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
 		FBB6DE222881F2E500C53517 /* SwiftUIMastering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMastering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB6DE252881F2E500C53517 /* SwiftUIMasteringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMasteringApp.swift; sourceTree = "<group>"; };
 		FBB6DE292881F2E800C53517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				FB1DCEF42884C09500722E2F /* MatchGeometry.swift */,
 				FBB6DE292881F2E800C53517 /* Assets.xcassets */,
 				FBB6DE2B2881F2E800C53517 /* Preview Content */,
+				FB1DCEF628852FB400722E2F /* CustomShapes.swift */,
 			);
 			path = SwiftUIMastering;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1DCEF728852FB400722E2F /* CustomShapes.swift in Sources */,
 				FB1DCEF52884C09500722E2F /* MatchGeometry.swift in Sources */,
 				FBB6DE3628822CA200C53517 /* ButtonStyle.swift in Sources */,
 				FBD21A68288360E0002F2588 /* AnyTransition.swift in Sources */,
