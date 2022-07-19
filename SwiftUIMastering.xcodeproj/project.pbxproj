@@ -18,6 +18,9 @@
 		FBCA4AC52885C30B0070CA7C /* AnimateableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4AC42885C30B0070CA7C /* AnimateableData.swift */; };
 		FBCA4AC728867EC10070CA7C /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4AC628867EC10070CA7C /* Generics.swift */; };
 		FBCA4AC9288691630070CA7C /* ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4AC8288691630070CA7C /* ViewBuilder.swift */; };
+		FBCA4ACB2886A7690070CA7C /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4ACA2886A7690070CA7C /* PreferenceKey.swift */; };
+		FBCA4ACE2886AA650070CA7C /* GeometryPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4ACD2886AA650070CA7C /* GeometryPreferenceKey.swift */; };
+		FBCA4AD02886ACB30070CA7C /* ScrollViewOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4ACF2886ACB30070CA7C /* ScrollViewOffsetPreferenceKey.swift */; };
 		FBD21A68288360E0002F2588 /* AnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD21A67288360E0002F2588 /* AnyTransition.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +37,9 @@
 		FBCA4AC42885C30B0070CA7C /* AnimateableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateableData.swift; sourceTree = "<group>"; };
 		FBCA4AC628867EC10070CA7C /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
 		FBCA4AC8288691630070CA7C /* ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilder.swift; sourceTree = "<group>"; };
+		FBCA4ACA2886A7690070CA7C /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
+		FBCA4ACD2886AA650070CA7C /* GeometryPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKey.swift; sourceTree = "<group>"; };
+		FBCA4ACF2886ACB30070CA7C /* ScrollViewOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKey.swift; sourceTree = "<group>"; };
 		FBD21A67288360E0002F2588 /* AnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +83,7 @@
 				FBCA4AC42885C30B0070CA7C /* AnimateableData.swift */,
 				FBCA4AC628867EC10070CA7C /* Generics.swift */,
 				FBCA4AC8288691630070CA7C /* ViewBuilder.swift */,
+				FBCA4ACC2886AA500070CA7C /* PreferenceKeyGroup */,
 				FBB6DE292881F2E800C53517 /* Assets.xcassets */,
 				FBB6DE2B2881F2E800C53517 /* Preview Content */,
 			);
@@ -89,6 +96,16 @@
 				FBB6DE2C2881F2E800C53517 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBCA4ACC2886AA500070CA7C /* PreferenceKeyGroup */ = {
+			isa = PBXGroup;
+			children = (
+				FBCA4ACA2886A7690070CA7C /* PreferenceKey.swift */,
+				FBCA4ACD2886AA650070CA7C /* GeometryPreferenceKey.swift */,
+				FBCA4ACF2886ACB30070CA7C /* ScrollViewOffsetPreferenceKey.swift */,
+			);
+			path = PreferenceKeyGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,8 +179,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB1DCEF728852FB400722E2F /* CustomShapes.swift in Sources */,
+				FBCA4ACB2886A7690070CA7C /* PreferenceKey.swift in Sources */,
+				FBCA4ACE2886AA650070CA7C /* GeometryPreferenceKey.swift in Sources */,
 				FB1DCEF52884C09500722E2F /* MatchGeometry.swift in Sources */,
 				FBB6DE3628822CA200C53517 /* ButtonStyle.swift in Sources */,
+				FBCA4AD02886ACB30070CA7C /* ScrollViewOffsetPreferenceKey.swift in Sources */,
 				FBCA4AC728867EC10070CA7C /* Generics.swift in Sources */,
 				FBD21A68288360E0002F2588 /* AnyTransition.swift in Sources */,
 				FBB6DE342881F49600C53517 /* ViewModifiers.swift in Sources */,
