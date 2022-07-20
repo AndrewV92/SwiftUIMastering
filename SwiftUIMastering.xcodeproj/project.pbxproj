@@ -23,6 +23,11 @@
 		FBCA4AD02886ACB30070CA7C /* ScrollViewOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4ACF2886ACB30070CA7C /* ScrollViewOffsetPreferenceKey.swift */; };
 		FBCA4AD32887FB450070CA7C /* JSONwithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4AD22887FB450070CA7C /* JSONwithCombine.swift */; };
 		FBCA4AD528880A380070CA7C /* Subscribers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4AD428880A380070CA7C /* Subscribers.swift */; };
+		FBCA4AD8288834630070CA7C /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4AD7288834630070CA7C /* AppTabBarView.swift */; };
+		FBCA4ADA288853890070CA7C /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4AD9288853890070CA7C /* CustomTabBarView.swift */; };
+		FBCA4ADC288856F60070CA7C /* CustomBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4ADB288856F60070CA7C /* CustomBarContainerView.swift */; };
+		FBCA4ADE28885A1B0070CA7C /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4ADD28885A1B0070CA7C /* TabBarItemsPreferenceKey.swift */; };
+		FBCA4AE028885C8D0070CA7C /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4ADF28885C8D0070CA7C /* TabBarItem.swift */; };
 		FBD21A68288360E0002F2588 /* AnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD21A67288360E0002F2588 /* AnyTransition.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +49,11 @@
 		FBCA4ACF2886ACB30070CA7C /* ScrollViewOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKey.swift; sourceTree = "<group>"; };
 		FBCA4AD22887FB450070CA7C /* JSONwithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONwithCombine.swift; sourceTree = "<group>"; };
 		FBCA4AD428880A380070CA7C /* Subscribers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscribers.swift; sourceTree = "<group>"; };
+		FBCA4AD7288834630070CA7C /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		FBCA4AD9288853890070CA7C /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		FBCA4ADB288856F60070CA7C /* CustomBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBarContainerView.swift; sourceTree = "<group>"; };
+		FBCA4ADD28885A1B0070CA7C /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		FBCA4ADF28885C8D0070CA7C /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		FBD21A67288360E0002F2588 /* AnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +97,7 @@
 				FBCA4AC42885C30B0070CA7C /* AnimateableData.swift */,
 				FBCA4AC628867EC10070CA7C /* Generics.swift */,
 				FBCA4AC8288691630070CA7C /* ViewBuilder.swift */,
+				FBCA4AD62888343E0070CA7C /* CustomTabBar */,
 				FBCA4AD12887FB2A0070CA7C /* Combine */,
 				FBCA4ACC2886AA500070CA7C /* PreferenceKeyGroup */,
 				FBB6DE292881F2E800C53517 /* Assets.xcassets */,
@@ -120,6 +131,18 @@
 				FBCA4AD428880A380070CA7C /* Subscribers.swift */,
 			);
 			path = Combine;
+			sourceTree = "<group>";
+		};
+		FBCA4AD62888343E0070CA7C /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FBCA4AD7288834630070CA7C /* AppTabBarView.swift */,
+				FBCA4AD9288853890070CA7C /* CustomTabBarView.swift */,
+				FBCA4ADB288856F60070CA7C /* CustomBarContainerView.swift */,
+				FBCA4ADD28885A1B0070CA7C /* TabBarItemsPreferenceKey.swift */,
+				FBCA4ADF28885C8D0070CA7C /* TabBarItem.swift */,
+			);
+			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,17 +217,22 @@
 			files = (
 				FB1DCEF728852FB400722E2F /* CustomShapes.swift in Sources */,
 				FBCA4AD32887FB450070CA7C /* JSONwithCombine.swift in Sources */,
+				FBCA4AE028885C8D0070CA7C /* TabBarItem.swift in Sources */,
 				FBCA4ACB2886A7690070CA7C /* PreferenceKey.swift in Sources */,
 				FBCA4ACE2886AA650070CA7C /* GeometryPreferenceKey.swift in Sources */,
+				FBCA4ADA288853890070CA7C /* CustomTabBarView.swift in Sources */,
 				FB1DCEF52884C09500722E2F /* MatchGeometry.swift in Sources */,
 				FBB6DE3628822CA200C53517 /* ButtonStyle.swift in Sources */,
+				FBCA4AD8288834630070CA7C /* AppTabBarView.swift in Sources */,
 				FBCA4AD02886ACB30070CA7C /* ScrollViewOffsetPreferenceKey.swift in Sources */,
+				FBCA4ADC288856F60070CA7C /* CustomBarContainerView.swift in Sources */,
 				FBCA4AC728867EC10070CA7C /* Generics.swift in Sources */,
 				FBD21A68288360E0002F2588 /* AnyTransition.swift in Sources */,
 				FBB6DE342881F49600C53517 /* ViewModifiers.swift in Sources */,
 				FBCA4AD528880A380070CA7C /* Subscribers.swift in Sources */,
 				FBCA4AC52885C30B0070CA7C /* AnimateableData.swift in Sources */,
 				FBB6DE262881F2E500C53517 /* SwiftUIMasteringApp.swift in Sources */,
+				FBCA4ADE28885A1B0070CA7C /* TabBarItemsPreferenceKey.swift in Sources */,
 				FBCA4AC9288691630070CA7C /* ViewBuilder.swift in Sources */,
 				FBCA4AC32885AD7B0070CA7C /* CustomCurves.swift in Sources */,
 			);
