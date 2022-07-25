@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB08F7EF288ED23C000EF9E4 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB08F7EE288ED23C000EF9E4 /* AppNavBarView.swift */; };
+		FB08F7F1288ED3A2000EF9E4 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB08F7F0288ED3A2000EF9E4 /* CustomNavBarView.swift */; };
+		FB08F7F3288ED593000EF9E4 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB08F7F2288ED593000EF9E4 /* CustomNavBarContainerView.swift */; };
+		FB08F7F5288ED779000EF9E4 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB08F7F4288ED779000EF9E4 /* CustomNavView.swift */; };
+		FB08F7F7288ED8E5000EF9E4 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB08F7F6288ED8E5000EF9E4 /* CustomNavLink.swift */; };
+		FB08F7F9288EDB33000EF9E4 /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB08F7F8288EDB33000EF9E4 /* CustomNavBarPreferenceKeys.swift */; };
 		FB1DCEF52884C09500722E2F /* MatchGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DCEF42884C09500722E2F /* MatchGeometry.swift */; };
 		FB1DCEF728852FB400722E2F /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DCEF628852FB400722E2F /* CustomShapes.swift */; };
 		FBB6DE262881F2E500C53517 /* SwiftUIMasteringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6DE252881F2E500C53517 /* SwiftUIMasteringApp.swift */; };
@@ -32,6 +38,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB08F7EE288ED23C000EF9E4 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		FB08F7F0288ED3A2000EF9E4 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		FB08F7F2288ED593000EF9E4 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		FB08F7F4288ED779000EF9E4 /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		FB08F7F6288ED8E5000EF9E4 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		FB08F7F8288EDB33000EF9E4 /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		FB1DCEF42884C09500722E2F /* MatchGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGeometry.swift; sourceTree = "<group>"; };
 		FB1DCEF628852FB400722E2F /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
 		FBB6DE222881F2E500C53517 /* SwiftUIMastering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMastering.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +80,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB08F7ED288ED21B000EF9E4 /* CustomNavView */ = {
+			isa = PBXGroup;
+			children = (
+				FB08F7EE288ED23C000EF9E4 /* AppNavBarView.swift */,
+				FB08F7F0288ED3A2000EF9E4 /* CustomNavBarView.swift */,
+				FB08F7F2288ED593000EF9E4 /* CustomNavBarContainerView.swift */,
+				FB08F7F4288ED779000EF9E4 /* CustomNavView.swift */,
+				FB08F7F6288ED8E5000EF9E4 /* CustomNavLink.swift */,
+				FB08F7F8288EDB33000EF9E4 /* CustomNavBarPreferenceKeys.swift */,
+			);
+			path = CustomNavView;
+			sourceTree = "<group>";
+		};
 		FBB6DE192881F2E500C53517 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +122,7 @@
 				FBCA4AC42885C30B0070CA7C /* AnimateableData.swift */,
 				FBCA4AC628867EC10070CA7C /* Generics.swift */,
 				FBCA4AC8288691630070CA7C /* ViewBuilder.swift */,
+				FB08F7ED288ED21B000EF9E4 /* CustomNavView */,
 				FBCA4AD62888343E0070CA7C /* CustomTabBar */,
 				FBCA4AD12887FB2A0070CA7C /* Combine */,
 				FBCA4ACC2886AA500070CA7C /* PreferenceKeyGroup */,
@@ -217,6 +243,7 @@
 			files = (
 				FB1DCEF728852FB400722E2F /* CustomShapes.swift in Sources */,
 				FBCA4AD32887FB450070CA7C /* JSONwithCombine.swift in Sources */,
+				FB08F7EF288ED23C000EF9E4 /* AppNavBarView.swift in Sources */,
 				FBCA4AE028885C8D0070CA7C /* TabBarItem.swift in Sources */,
 				FBCA4ACB2886A7690070CA7C /* PreferenceKey.swift in Sources */,
 				FBCA4ACE2886AA650070CA7C /* GeometryPreferenceKey.swift in Sources */,
@@ -225,12 +252,17 @@
 				FBB6DE3628822CA200C53517 /* ButtonStyle.swift in Sources */,
 				FBCA4AD8288834630070CA7C /* AppTabBarView.swift in Sources */,
 				FBCA4AD02886ACB30070CA7C /* ScrollViewOffsetPreferenceKey.swift in Sources */,
+				FB08F7F3288ED593000EF9E4 /* CustomNavBarContainerView.swift in Sources */,
+				FB08F7F9288EDB33000EF9E4 /* CustomNavBarPreferenceKeys.swift in Sources */,
 				FBCA4ADC288856F60070CA7C /* CustomBarContainerView.swift in Sources */,
 				FBCA4AC728867EC10070CA7C /* Generics.swift in Sources */,
+				FB08F7F7288ED8E5000EF9E4 /* CustomNavLink.swift in Sources */,
 				FBD21A68288360E0002F2588 /* AnyTransition.swift in Sources */,
 				FBB6DE342881F49600C53517 /* ViewModifiers.swift in Sources */,
 				FBCA4AD528880A380070CA7C /* Subscribers.swift in Sources */,
+				FB08F7F5288ED779000EF9E4 /* CustomNavView.swift in Sources */,
 				FBCA4AC52885C30B0070CA7C /* AnimateableData.swift in Sources */,
+				FB08F7F1288ED3A2000EF9E4 /* CustomNavBarView.swift in Sources */,
 				FBB6DE262881F2E500C53517 /* SwiftUIMasteringApp.swift in Sources */,
 				FBCA4ADE28885A1B0070CA7C /* TabBarItemsPreferenceKey.swift in Sources */,
 				FBCA4AC9288691630070CA7C /* ViewBuilder.swift in Sources */,
